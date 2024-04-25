@@ -54,9 +54,6 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     }
 }
 
-tasks.withType<Jar>{
-    destinationDir = file("F:/我的世界/服务器/麦格瑞/麦格瑞文档")
-}
 
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8
