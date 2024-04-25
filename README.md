@@ -14,5 +14,5 @@
 ![img.png](img.png)
 
 ---
-#### 注意
+### 注意
 由于 Kotlin 的 class 默认为 final, 无法被 AOP 正常代理, 所以请在您的项目中引入 gradle 插件 `org.jetbrains.kotlin.plugin.spring` 可参考本项目构建文件, 此插件会自动将使用`@Service`等注解的类变为 `open` 可继承
